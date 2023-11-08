@@ -16,13 +16,5 @@ MHC class I predictors supported:
 
 Citation:
 ```bibtex
-@article{borole2023building,
-  title={Building Trust in Deep Learning-based Immune Response Predictors with Interpretable Explanations},
-  author={Borole, Piyush and Rajan, Ajitha},
-  journal={bioRxiv},
-  pages={2023--05},
-  year={2023},
-  publisher={Cold Spring Harbor Laboratory}
-}
 ```
 
