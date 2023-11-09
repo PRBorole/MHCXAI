@@ -1,7 +1,7 @@
 # MHCXAI
 Framework for generating SHAP and LIME explanations for MHC class I predictors
 
-<p align="center"><img src="figures/overview.png" alt="" width="800"></p>
+<p align="center"><img src="figures/MHCXAI.png" alt="" width="800"></p>
 
 MHC class I predictors supported:
 1. MHCflurry (https://doi.org/10.1016/j.cels.2020.06.010)
