@@ -1,5 +1,5 @@
 # MHCXAI
-Framework for generating SHAP and LIME explanations for MHC class I predictors
+Framework for generating local SHAP and LIME explanations for MHC class I predictors
 
 <p align="center"><img src="figures/MHCXAI.png" alt="" width="800"></p>
 
@@ -26,7 +26,10 @@ MHC class I predictors supported:
 # Folders
 **1 - example**: Contains files used by notebooks for creating figures
 
-**2 - 
+**2 - data**: Contains results for benchmark, model validation, stability and consistency along with MHC-Bench dataset
+1. The *MHC-Bench* folder contains the benchmark dataset divided per allele
+2. The *MHC-Bench-v2* folder contains modified MHC-Bench such peptides overlapping with training data is removed.
+While using, combine all the allele files into one name them MHC-Bench.csv or MHC-Bench-vs.csv.
 
 # To add new predictor
 1. In MHCXAI.py, create a function \<predictor\>_predict_class(self,peptides_arr) which accepts peptides list under the class MHCXAI.
