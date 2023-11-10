@@ -11,19 +11,30 @@ MHC class I predictors supported:
 
 # Notebooks
 
-**0 - Benchmark**
+**0 - Benchmark**: Contains benchmark results for MHC-Bench and MHC-Bench-2
 
-**1 - MHCXAI usage and instance based explanations**
+**1 - MHCXAI usage and instance based explanations**: Demonstrates usage of MHCXAI for the above listed predictors
 
-**2 - Model Validation with BAlaS**
+**2 - Model Validation with BAlaS**: Figures used in paper for testing *validity*
 
-**3 - Consistency**
+**3 - Consistency**: Figures used in paper for *consistency*
 
-**4 - Stability**
+**4 - Stability**: Figures used in paper for *stability*
 
-**5 - Explanation for alleles - TransPHLA**
+**5 - Explanation for alleles - TransPHLA**: Usage of MHCXAI adapted to generate explanations for allele sequence
+
+# Folders
+**1 - example**: Contains files used by notebooks for creating figures
+
+**2 - 
 
 # To add new predictor
+1. In MHCXAI.py, create a function \<predictor\>_predict_class(self,peptides_arr) which accepts peptides list under the class MHCXAI.
+2. Add the path and import the predictor under this new function
+3. For LIME, the return should be a matrix of two columns containing probability for non-binder or negative class in first column and probability for binder or positive class in second column 
+4. For SHAP, the return should be an array of probability for binder or positive class
+5. Add the function name in LIMEtabular and SHAPtabular
+6. Make sure to process the training data for the predictor
 
 
 Citation:
