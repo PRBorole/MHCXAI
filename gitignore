@@ -1,6 +1,9 @@
 .ipynb_checkpoints
 /src/__pycache__
 /data/benchmark/MHCflurry_benchmark_results.csv
+/data/benchmark/NetMHCpan_benchmark_results.csv
 /data/benchmark/MHCfovea_benchmark_results.csv
-/data/benchmark/NetMHCpanbenchmark_results.csv
 /data/benchmark/TransPHLA_benchmark_results.csv
+/data/MHC-Bench/MHC-Bench_v2.csv
+/data/MHC-Bench/MHC-Bench.csv
+.swp

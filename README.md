@@ -10,17 +10,12 @@ MHC class I predictors supported:
 4. TransPHLA (https://doi.org/10.1038/s42256-022-00459-7)
 
 # Notebooks
-**0 - Benchmark**
-
-**1 - MHCXAI usage and instance based explanations**
-
-**2 - Model Validation with BAlaS**
-
-**3 - Consistency**
-
-**4 - Stability**
-
-**5 - Explanation for alleles - TransPHLA**
+0 - Benchmark
+1 - MHCXAI usage and instance based explanations
+2 - Model Validation with BAlaS
+3 - Consistency
+4 - Stability
+5 - Explanation for alleles - TransPHLA
 
 # To add new predictor
 
