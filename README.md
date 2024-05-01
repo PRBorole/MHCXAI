@@ -42,5 +42,6 @@ While using, combine all the allele files into one name them MHC-Bench.csv or MH
 
 Citation:
 ```bibtex
+Borole, P., Rajan, A. Building trust in deep learning-based immune response predictors with interpretable explanations. Commun Biol 7, 279 (2024). https://doi.org/10.1038/s42003-024-05968-2
 ```
 
